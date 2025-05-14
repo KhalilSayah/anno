@@ -37,11 +37,11 @@ const App: React.FC = () => {
           <div className="flex flex-col items-center gap-6 text-center">
             <div className="flex items-center gap-2 text-2xl font-bold">
               <Icon icon="lucide:users" className="text-primary" />
-              <h1>Simultaneous Press Challenge</h1>
+              <h1>J'ai quelque chose à vous dire mes Avengers</h1>
             </div>
             
             <p className="text-default-600">
-              Press and hold the button below. When exactly 4 different users are pressing simultaneously, a special announcement will appear!
+            Célia, Marvin, Romain et Coco, vous devez tous les quatre appuyer en même temps sur le bouton pour voir l'annonce.
             </p>
             
             <PressButton />
@@ -49,7 +49,7 @@ const App: React.FC = () => {
             <Announcement />
             
             <div className="mt-4 text-sm text-default-500">
-              <p>Current implementation uses Firebase Realtime Database to track user presses across different devices.</p>
+              <p>Avoue le site est hlou !</p>
             </div>
           </div>
         </Card>

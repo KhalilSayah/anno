@@ -49,21 +49,21 @@ export const Announcement: React.FC = () => {
 
       <Modal isOpen={showAnnouncement} onOpenChange={setShowAnnouncement}>
         <ModalContent>
-          <ModalHeader className="flex flex-col gap-1">Special Announcement</ModalHeader>
+          <ModalHeader className="flex flex-col gap-1">JE SUIS PAPA ! </ModalHeader>
           <ModalBody>
             <div className="flex flex-col items-center gap-4 py-4">
               <div className="rounded-full bg-success-100 p-4">
                 <Icon icon="lucide:party-popper" className="text-4xl text-success" />
               </div>
-              <h3 className="text-2xl font-bold">Mission Accomplished!</h3>
+              <h3 className="text-2xl font-bold">Šalim se! Idem s vama u Split.</h3>
               <p className="text-center text-default-600">
-                All 4 users are pressing simultaneously! This special announcement is now visible to everyone.
+                Ca veut dire je viens avec vous à Split mes biches !
               </p>
             </div>
           </ModalBody>
           <ModalFooter>
             <Button color="success" onPress={() => setShowAnnouncement(false)}>
-              Awesome!
+              Khalil t'es le meileur !
             </Button>
           </ModalFooter>
         </ModalContent>
